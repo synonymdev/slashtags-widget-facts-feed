@@ -1,6 +1,6 @@
 {
     "name": "Bitcoin Facts",
-    "description": "Interesting Facts about Bitcoin",
+    "description": "Discover fun facts about Bitcoin, every time you open your wallet.",
     "icons": {
         "48": "/images/news.svg",
         "96": "/images/news.svg"
