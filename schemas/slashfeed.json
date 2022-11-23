@@ -1,0 +1,17 @@
+{
+    "name": "Bitcoin Facts",
+    "description": "Discover fun facts about Bitcoin, every time you open your wallet.",
+    "icons": {
+        "48": "/images/news.svg",
+        "96": "/images/news.svg"
+    },
+    "type": "quotes",
+    "version": "0.0.1",
+    "fields": [
+        {
+            "name": "Facts",
+            "description": "Bitcoin Facts",
+            "main": "/feed/"
+        }
+    ]
+}
