@@ -24,8 +24,8 @@ export default class FactsFeed {
         const driveKeys = await this.feedStorage.feed(this.driveId, { announce: true })
 
         // Write the logo images into the feed
-        const imageData = fs.readFileSync('./schemas/images/facts.svg')
-        await this.feedStorage.ensureFile(this.driveId, '/images/facts.svg', imageData)
+        const imageData = fs.readFileSync('./schemas/images/lightbulb.svg')
+        await this.feedStorage.ensureFile(this.driveId, '/images/lightbulb.svg', imageData)
 
         // this is the hyperdrive that will contain all the feed data
         const url = format(driveKeys.key, { protocol: 'slashfeed:', fragment: { encryptionKey: encode(driveKeys.encryptionKey) } })
