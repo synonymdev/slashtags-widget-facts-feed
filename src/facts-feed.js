@@ -4,7 +4,6 @@ import Feeds from '@synonymdev/feeds'
 import { format, encode } from '@synonymdev/slashtags-url'
 import logger from './logger.js'
 
-
 export default class FactsFeed {
     constructor(config, schema) {
         this.config = config
@@ -50,7 +49,7 @@ export default class FactsFeed {
     async updateFacts() {
         // Start by removing all existing facts (so we can delete stuff we no longer want)
         await this.removeExisting()
-        
+
         // Finally add all the current facts in
         logger.info(`Ensuring ${this.config.facts.length} facts are in the drive...`)
         for (const fact of this.config.facts) {
@@ -66,7 +65,7 @@ export default class FactsFeed {
                 const key = path.join(Feeds.FEED_PREFIX, filename)
                 await this.feedStorage.deleteFile(this.driveId, key)
             })
-            d.on('end', () => resolve())    
+            d.on('end', () => resolve())
         })
     }
 
