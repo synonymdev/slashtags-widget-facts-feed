@@ -8,8 +8,8 @@ module.exports = {
   apps: [
     // Seeding Service
     {
-      name: 'SlashFeed News',
-      script: 'src/index.js',
+      name: 'SlashFeed Facts',
+      script: './bin.js',
       min_uptime: '5s',
       max_restarts: 10,
       kill_timeout: 30000,
