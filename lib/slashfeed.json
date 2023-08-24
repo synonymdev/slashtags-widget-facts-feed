@@ -11,7 +11,7 @@
         {
             "name": "Facts",
             "description": "Bitcoin Facts",
-            "main": "/feed/"
+            "main": "/feed/facts"
         }
     ]
 }

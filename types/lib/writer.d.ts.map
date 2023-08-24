@@ -1,0 +1,1 @@
+{"version":3,"file":"writer.d.ts","sourceRoot":"","sources":["../../lib/writer.js"],"names":[],"mappings":";AAEA;IACE;;;;OAIG;IACH,oBAJW;;OAAmC,CAAC,CAAC,UACrC;;OAAmC,CAAC,CAAC,QACrC;;OAAmC,CAAC,CAAC,EAM/C;IADC,qBAAqB;IAGvB;;OAEG;IACH,kBAFW,MAAM,EAAE,iBAIlB;CACF;;;;;cAKY;IAAC,IAAI,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,MAAM,CAAC;IAAC,MAAM,EAAE,MAAM,CAAA;CAAC"}
