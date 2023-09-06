@@ -21,7 +21,7 @@ feed.ready().then(async () => {
   console.log('Updated Bitcoin facts feed:', feed.url)
 })
 
-function readConfig() {
+function readConfig () {
   let config = {}
   try {
     config = JSON.parse(fs.readFileSync(configPath, 'utf8'))
@@ -42,7 +42,7 @@ function readConfig() {
   return config
 }
 
-function writeConfig() {
+function writeConfig () {
   const encoded = JSON.stringify({
     storage,
     relay,
