@@ -44,7 +44,7 @@ const { Feed, Reader } = require('slashtags-widget-facts-feed');
   const reader = new Reader(readerClient, feed.url)
 
   const facts = await reader.getAllFacts()
-  const random = await reader.getRandomFacts()
+  const random = await reader.getRandomFact()
 })
 ```
 
